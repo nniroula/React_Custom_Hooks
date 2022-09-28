@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
+// implement this method
 function useFlip(initialFlipState = true) {
   const [isFlipped, setFlipped] = useState(initialFlipState);
 
@@ -11,6 +12,7 @@ function useFlip(initialFlipState = true) {
   return [isFlipped, flip];
 }
 
+// axios
 function useAxios(keyInLS, baseUrl) {
   const [responses, setResponses] = useLocalStorage(keyInLS);
 

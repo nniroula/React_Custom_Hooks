@@ -1,3 +1,5 @@
+// Most of the code is the exact copy of the solution mannual for the saking of learning by copying.
+
 // This optional code is used to register a service worker.
 // register() is not called by default.
 
